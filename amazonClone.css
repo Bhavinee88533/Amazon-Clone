@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border;
+}
+body{
+    background-color: #cccc;
+}
+div{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #549d9d;
+}
+a:hover{
+    cursor: pointer;
+    color: rgb(222, 63, 63);
+}
+#navbar{
+    height: 60px;
+    width: 1922.53px;
+    padding-bottom:4px;
+    background-color: #1d4545;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+#nav-logo{
+    height: 60px;
+    width: 113px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+#logo{
+    height: 55px;
+    width: 113px;
+    background-image: url(amazon\ logo.jpeg);
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+    
+}
+#nav-address{
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 2px;
+    border: 2px solid transparent;
+}
+#nav-address:hover{
+    border: 2px solid white;
+    
+}
+#add-first{
+    color: #cccc;
+    font-size: 0.9rem;
+    margin-left:20px ;
+}
+#add-second{
+    font-size:1rem ;
+    margin-left:8px ;
+    margin-top: 2px;
+}
+#add-icon{
+    display: flex;
+    align-items: center;
+}
+#nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(255, 224, 229);
+    width: 850px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-top:12px ;
+    margin-left: 15px;
+    flex-grow: 0.6;
+    border: 2px solid transparent;
+}
+#nav-search:active{
+    border: 2px solid rgb(255, 224, 229);
+}
+#search-select{
+    color: rgb(60, 54, 54);
+    background-color: #e6e6e6;
+    width: 53px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10%;
+    border: none;
+}
+#search-input{
+   width: 100%;
+   height: 100%;
+   font-size: medium;
+   border: none;
+}
+#search-select:hover{
+    color: rgb(0, 0, 0);
+  background-color: #cccc;
+}
+#search-logo{
+ width: 50px;
+ height: 40px;
+ text-decoration: none;
+ border: none;
+ background-color: rgb(255, 224, 229);
+ font-size: 1.2rem;
+}
+#nav-sign{
+    width: 131.53px;
+    height: 40px;
+    padding-top: 15px;
+    margin-top: 2px;
+    color: white;
+    border: 2px solid transparent;
+}
+#nav-sign:hover{
+    border: 2px solid white;
+}
+#nav-first{
+    font-size: 0.8rem;
+}
+#nav-second{
+    font-size: 0.1;
+}
+#nav-returns{
+    color: white;
+    border: 2px solid transparent;
+    padding-top: 15px;
+    margin-top: 2px;
+}
+#nav-returns:hover{
+    border: 2px solid white;
+}
+#nav-cart{
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 84px;
+    height: 35px;
+    font-weight: 100;
+    font-size: larger;
+    margin-top: 2px;
+    padding-top: 20px;
+    border: 2px solid transparent;
+}
+#cart-logo i{
+    width: 38px;
+    height: 44px;
+}
+#nav-cart:hover{
+    border: 2px solid rgb(255, 255, 255); 
+}
+
+
+#panel{
+    height: 39px;
+    width: 1922.53px;
+    background-color: #325d5d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+#panel-all{
+    font-weight: 700;
+    border: 1px solid transparent;
+    height: 28px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#panel-all:hover{
+    border: 1px solid white;
+}
+#panel-options p{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: small;
+    padding-right:10px ;
+    border: 1px solid transparent;
+    height: 28px;
+    padding: 8px 2px 0px 2px;
+}
+#panel-options p:hover{
+    border: 1px solid white;
+}
+#panel-options{
+    flex-grow: 0.9;
+}
+#panel-deals{
+    font-weight: 700; 
+    border: 1px solid transparent; 
+    height: 28px;  
+    padding-top: 8px;
+}
+#panel-deals:hover{
+    border: 1px solid white;
+}
+
+#hero-section{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/Unrec/TallHero_1500X600_Unrec._CB593464763_.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+    margin: 0px 200px 1000px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-msg{
+    background-color: white;
+    width: 1432px;
+    height: 20px;
+    padding: 10px 14px 10px 14px;
+    text-align: center!important;
+    font-size: 0.9rem;
+}
+#anchor-tag:hover{
+    cursor: pointer;
+    color: rgb(222, 63, 63);
+}
+#shop-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    z-index: 2;
+    position: absolute;
+    top:   450px;
+    margin: 0px 200px 1000px 200px;
+
+}
+#shop-section div{
+    height: 390px;
+    width: 320px;
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px 15px 10px 20px;
+}
+#box1 div{
+    width: 290px;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: flex-start;
+    margin: 0;
+    text-align: center;
+}
+#box1  div a{
+text-decoration: none;
+color: black;
+ font-weight:lighter ;
+ font-size: small;
+}
+#shop-section div p a{
+    font-weight: 700;
+}
+#shop-section div p{
+    width: 320px;
+    padding-top: 20px;
+}
+#box3 p {
+    padding-top: 20px;
+}
+
+#box4 a{
+    color: black;
+    font-size: small;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 3px;
+}
+#box4 p a{
+    font-size: medium;
+    color: #549d9d;
+}
+#shop-section #slider{
+    width: 1445px;
+    height: 300px;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#shop-section #slider #slider-title{
+    width: 1430px;
+    height: 30px;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    top: 130px;
+}
+#shop-section #slider #slider-title img{
+    cursor: pointer;
+    padding-top:50px;
+    padding-left :10px;
+    padding-right: 10px;
+}
+#foot-panel{
+ width: 1900px;
+ height: 30px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ background-color: #3b506a;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+font-weight: 600;
+font-size: small;
+}
+#foot-area{
+    width: 1900px;
+    height: 300px;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    line-height: 30px;
+    font-size: smaller;
+}
+#last-div{
+    width: 1900px;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1a232e;
+}
